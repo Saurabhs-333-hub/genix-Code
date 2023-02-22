@@ -63,7 +63,7 @@ const Login = ({ setloginuser }) => {
     useEffect(() => {
         console.log(loginErr);
         if (Object.keys(loginErr).length === 0 && isSubmit) {
-            console.log(user)
+            console.log(user.email)
         }
     }, [loginErr])
     const Validate = (values) => {
